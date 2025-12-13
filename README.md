@@ -79,7 +79,7 @@ It demonstrates how analytics can be used to:
 
 ---
 
-## 👤 Author
+## Author:
 
 **Ronit Kaushal**  
 Data Analytics & Business Intelligence  
