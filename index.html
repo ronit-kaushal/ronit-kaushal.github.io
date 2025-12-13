@@ -2,78 +2,184 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Ronit Kaushal</title>
+    <title>Ronit Kaushal | Analytics Portfolio</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 
     <style>
+        :root {
+            --primary: #3478C1;
+            --secondary: #2AB7CA;
+            --dark: #1f2933;
+            --muted: #5f6c7b;
+            --bg: #f4f7fb;
+            --card-bg: #ffffff;
+            --border: #e5eaf0;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
         body {
-            font-family: 'Inter', sans-serif;
-            background: #f4f6f8;
             margin: 0;
-            padding: 0;
+            font-family: 'Inter', sans-serif;
+            background: var(--bg);
+            color: var(--dark);
+            line-height: 1.6;
         }
 
         .container {
-            max-width: 800px;
-            margin: 50px auto;
-            background: white;
-            padding: 40px;
-            border-radius: 16px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 60px 30px;
         }
 
-        h1 {
-            font-size: 32px;
-            margin-bottom: 0px;
+        /* HERO */
+        .hero {
+            margin-bottom: 70px;
+        }
+
+        .hero h1 {
+            font-size: 38px;
+            margin: 0;
             font-weight: 700;
-            color: #222;
+            letter-spacing: -0.5px;
         }
 
-        h2 {
+        .hero p.title {
+            margin: 10px 0 20px;
+            font-size: 18px;
+            color: var(--primary);
+            font-weight: 600;
+        }
+
+        .hero p.summary {
+            max-width: 720px;
+            font-size: 16px;
+            color: var(--muted);
+        }
+
+        /* SECTION */
+        section {
+            margin-bottom: 70px;
+        }
+
+        section h2 {
+            font-size: 26px;
+            margin-bottom: 25px;
+            font-weight: 700;
+            border-left: 5px solid var(--primary);
+            padding-left: 14px;
+        }
+
+        /* CARDS */
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.04);
+        }
+
+        .card h3 {
+            margin-top: 0;
             font-size: 22px;
-            margin-top: 40px;
-            color: #333;
-            border-left: 4px solid #4a90e2;
-            padding-left: 10px;
+            font-weight: 700;
         }
 
-        .cert-list {
-            list-style: none;
+        .card p {
+            color: var(--muted);
+        }
+
+        /* PROJECT */
+        .project-meta {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 14px;
+            margin: 20px 0;
             padding: 0;
+            list-style: none;
         }
 
-        .cert-item {
-            background: #f9fbff;
-            border: 1px solid #e1e8f0;
-            padding: 18px 20px;
-            margin: 12px 0;
-            border-radius: 12px;
+        .project-meta li {
+            background: #f1f6fb;
+            border-radius: 10px;
+            padding: 10px 14px;
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--dark);
+        }
+
+        .project-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 18px;
+            border-radius: 10px;
+            background: var(--primary);
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .project-link:hover {
+            background: #2f6cad;
+        }
+
+        /* SKILLS */
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 18px;
+        }
+
+        .skill {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 20px;
+            font-weight: 600;
+        }
+
+        /* CERTS */
+        .cert {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            transition: 0.2s;
+            padding: 18px 20px;
+            background: #f9fbff;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            margin-bottom: 14px;
         }
 
-        .cert-item:hover {
-            background: #eef5ff;
-            transform: translateY(-2px);
-        }
-
-        a {
-            text-decoration: none;
-            color: #0066cc;
+        .cert a {
+            color: var(--primary);
             font-weight: 600;
+            text-decoration: none;
         }
 
-        a:hover {
+        .cert a:hover {
             text-decoration: underline;
         }
 
-        .label {
+        /* FOOTER */
+        footer {
+            border-top: 1px solid var(--border);
+            padding-top: 30px;
+            text-align: center;
+            color: var(--muted);
+            font-size: 14px;
+        }
+
+        footer a {
+            color: var(--primary);
+            text-decoration: none;
             font-weight: 600;
-            color: #222;
+            margin: 0 8px;
         }
     </style>
 </head>
@@ -81,45 +187,83 @@
 <body>
 
 <div class="container">
-    <h1>Ronit Kaushal</h1>
-    <p style="color:#555; margin-top:5px; font-size:15px;">SQL Certificates</p>
 
-    <h2>HackerRank Certifications</h2>
+    <!-- HERO -->
+    <div class="hero">
+        <h1>Ronit Kaushal</h1>
+        <p class="title">Data Analytics & Business Intelligence</p>
+        <p class="summary">
+            Data Analytics & Business Intelligence professional with leadership-level experience delivering KPI frameworks,
+            SLA performance tracking, and executive dashboards. Proficient in SQL, Power BI, and analytical reporting to
+            support data-driven decision-making, operational efficiency, and stakeholder alignment across enterprise environments.
+        </p>
+    </div>
 
-    <ul class="cert-list">
-        <li class="cert-item">
-            <span class="label">SQL (Basic)</span>
-            <a href="https://www.hackerrank.com/certificates/82902e422855" target="_blank">View Certificate →</a>
-        </li>
+    <!-- PROJECT -->
+    <section>
+        <h2>Featured Power BI Project</h2>
 
-        <li class="cert-item">
-            <span class="label">SQL (Intermediate)</span>
-            <a href="https://www.hackerrank.com/certificates/469453bc49c3" target="_blank">View Certificate →</a>
-        </li>
-    </ul>
+        <div class="card">
+            <h3>Staffing Analytics & SLA Performance Dashboard</h3>
+
+            <p>
+                An end-to-end analytics dashboard designed to monitor recruitment funnel performance,
+                SLA adherence, and hiring efficiency. The solution enables stakeholders to identify
+                bottlenecks, track service ratios, and perform job-level SLA deep dives through
+                interactive drill-through analysis.
+            </p>
+
+            <ul class="project-meta">
+                <li>Power BI · DAX · Power Query</li>
+                <li>KPI & SLA Frameworks</li>
+                <li>Recruitment Funnel Analytics</li>
+                <li>Drill-through & Trend Analysis</li>
+            </ul>
+
+            <a class="project-link" href="Staffing_Analytics_Dashboard.pdf" target="_blank">
+                📄 View Dashboard (PDF)
+            </a>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section>
+        <h2>Core Skills</h2>
+
+        <div class="skills">
+            <div class="skill">SQL · Data Analysis & Querying</div>
+            <div class="skill">Power BI · DAX · Data Modeling</div>
+            <div class="skill">Dashboard Design & KPI Frameworks</div>
+            <div class="skill">SLA, Funnel & Performance Analytics</div>
+            <div class="skill">Stakeholder Reporting & Insights</div>
+            <div class="skill">Business & Operational Analytics</div>
+        </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section>
+        <h2>Certifications</h2>
+
+        <div class="cert">
+            <span>HackerRank — SQL (Basic)</span>
+            <a href="https://www.hackerrank.com/certificates/82902e422855" target="_blank">View</a>
+        </div>
+
+        <div class="cert">
+            <span>HackerRank — SQL (Intermediate)</span>
+            <a href="https://www.hackerrank.com/certificates/469453bc49c3" target="_blank">View</a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>
+            <a href="https://www.linkedin.com/in/ronit-kaushal-a40609177/" target="_blank">LinkedIn</a> ·
+            <a href="mailto:ronitk95@gmail.com">ronitk95@gmail.com</a>
+        </p>
+    </footer>
+
 </div>
 
 </body>
 </html>
-
-<h2>Power BI Projects</h2>
-
-<div class="card">
-  <h3>Staffing Analytics & SLA Performance Dashboard</h3>
-  <p>
-    End-to-end analytics dashboard built using Power BI to track
-    recruitment funnel efficiency, SLA performance, hiring trends,
-    and operational KPIs.
-  </p>
-
-  <ul>
-    <li>Tools: Power BI, DAX, Power Query</li>
-    <li>Features: Drill-through, SLA analysis, KPI cards, trend analysis</li>
-    <li>Domain: Staffing & Recruitment Analytics</li>
-  </ul>
-
-  <a href="Staffing_Analytics_Dashboard.pdf" target="_blank">
-    📄 View Dashboard (PDF)
-  </a>
-</div>
-
