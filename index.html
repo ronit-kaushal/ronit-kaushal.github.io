@@ -43,26 +43,10 @@
         .hero h1 {
             font-size: 38px;
             font-weight: 700;
-            letter-spacing: 0.6px; /* ✅ reduced spacing */
+            letter-spacing: 0.6px;
             text-transform: uppercase;
             margin: 0;
             color: var(--navy);
-        }
-
-        .hero .title {
-            margin-top: 10px;
-            font-size: 16px;
-            font-weight: 600;
-            color: var(--primary);
-        }
-
-        .hero .summary {
-            max-width: 760px;
-            margin: 22px auto 0;
-            font-size: 15px;
-            line-height: 1.7;
-            color: var(--muted);
-            text-align: justify;
         }
 
         section {
@@ -123,6 +107,7 @@
             font-size: 14px;
             font-weight: 600;
             text-decoration: none;
+            margin-right: 10px;
         }
 
         .skills {
@@ -164,8 +149,6 @@
             text-decoration: none;
         }
 
-        /* FOOTER */
-
         .footer {
             text-align: center;
             margin-top: 80px;
@@ -188,20 +171,27 @@
 
     <div class="hero">
         <h1>Ronit Kaushal</h1>
-        <div class="title">Data Analytics & Business Intelligence</div>
-
-        <p class="summary">
-            Data Analytics & Business Intelligence professional with leadership-level experience delivering
-            KPI frameworks, SLA performance tracking, and executive dashboards. Proficient in SQL, Power BI,
-            and analytical reporting to support data-driven decision-making, operational efficiency, and
-            stakeholder alignment across enterprise environments.
-        </p>
     </div>
 
+    <!-- ABOUT ME -->
+    <section>
+        <h2>About Me</h2>
+
+        <div class="card">
+            <p>
+                Quality-driven Data Analytics and Business Intelligence professional with leadership-level
+                experience in delivering KPI frameworks, SLA performance tracking, and executive dashboards.
+                Proficient in SQL, Power BI, and analytical reporting, enabling data-driven decision-making,
+                improved operational efficiency, and strong stakeholder alignment across enterprise environments.
+            </p>
+        </div>
+    </section>
+
+    <!-- FEATURED PROJECTS -->
     <section>
         <h2>Featured Power BI Project</h2>
 
-        <div class="card">
+        <div class="card" style="margin-bottom:40px;">
             <h3>Staffing Analytics & SLA Performance Dashboard</h3>
             <p>
                 An end-to-end analytics dashboard designed to monitor recruitment funnel performance,
@@ -221,8 +211,30 @@
                 📄 View Dashboard (PDF)
             </a>
         </div>
+
+        <div class="card">
+            <h3>Supplier Scorecard Dashboard</h3>
+            <p>
+                A supplier performance scorecard designed to evaluate and compare vendor effectiveness
+                across response rates, hiring outcomes, SLA compliance, and cost efficiency. The dashboard
+                enables leadership to assess supplier contribution, identify performance gaps, and
+                support data-driven vendor strategy decisions.
+            </p>
+
+            <div class="pill-group">
+                <div class="pill">Power BI · DAX · KPI Scoring</div>
+                <div class="pill">Supplier Performance Analytics</div>
+                <div class="pill">Scorecard & Ranking Logic</div>
+                <div class="pill">Executive Reporting</div>
+            </div>
+
+            <a class="btn" href="Supplier_Scorecard_Dashboard.pdf" target="_blank">
+                📄 View Dashboard (PDF)
+            </a>
+        </div>
     </section>
 
+    <!-- CORE SKILLS -->
     <section>
         <h2>Core Skills</h2>
 
@@ -236,6 +248,7 @@
         </div>
     </section>
 
+    <!-- CERTIFICATIONS -->
     <section>
         <h2>Certifications</h2>
 
