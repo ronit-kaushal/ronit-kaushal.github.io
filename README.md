@@ -1,27 +1,26 @@
-# 📊 Staffing Analytics & SLA Performance Dashboard
+# 📊 Power BI Analytics Portfolio
 
-**Tool:** Power BI  
-**Format:** PDF (static export for portfolio demonstration)  
+**Author:** Ronit Kaushal  
+**Primary Tools:** Power BI · DAX · Power Query  
+**Format:** PDF exports (static, portfolio demonstration)  
 **Data:** Synthetic / Anonymized  
 
----
----
-
-## 🔍 Project Overview
-
-This project presents an end-to-end **Staffing Analytics & SLA Performance Dashboard** designed to track recruitment efficiency, SLA adherence, and operational performance across the hiring lifecycle.
-
-The dashboard is built to support data-driven decision-making by providing leadership-level visibility into hiring pipelines, service ratios, and time-based performance metrics.
-
-It demonstrates how analytics can be used to:
-- Monitor SLA compliance  
-- Identify hiring bottlenecks  
-- Evaluate recruitment funnel efficiency  
-- Perform job-level performance deep dives  
+This repository contains end-to-end **analytics dashboards** focused on KPI frameworks, SLA performance tracking, and executive reporting.  
+All dashboards are designed to demonstrate **analytical thinking, business alignment, and dashboard storytelling**.
 
 ---
 
-## 🎯 Business Objectives
+## 🔷 Project 1 — Staffing Analytics & SLA Performance Dashboard
+
+### 🔍 Project Overview
+
+An end-to-end **Staffing Analytics & SLA Performance Dashboard** designed to track recruitment efficiency, SLA adherence, and operational performance across the hiring lifecycle.
+
+The dashboard provides leadership-level visibility into hiring pipelines, service ratios, and time-based performance metrics to support data-driven decision-making.
+
+---
+
+### 🎯 Business Objectives
 
 - Track **Service Ratio, Fill Ratio, and Response Time**
 - Measure stage-wise progression from **Submission → Hire**
@@ -31,7 +30,7 @@ It demonstrates how analytics can be used to:
 
 ---
 
-## ⭐ Key Features
+### ⭐ Key Features
 
 - KPI cards for high-level performance tracking  
 - Core Stage Progression (Submission → Hire)  
@@ -42,7 +41,7 @@ It demonstrates how analytics can be used to:
 
 ---
 
-## 🧠 Skills Demonstrated
+### 🧠 Skills Demonstrated
 
 - Data modeling & table relationships  
 - DAX measures for SLA calculations & ratios  
@@ -53,29 +52,84 @@ It demonstrates how analytics can be used to:
 
 ---
 
-## 🛠 Tools & Technologies
-
-- Power BI  
-- DAX  
-- Power Query  
-- Data Modeling  
-- Dashboard Design  
-
----
-
-## 📄 Dashboard Preview
+### 📄 Dashboard Preview
 
 👉 **[View Dashboard (PDF)](./Staffing_Analytics_Dashboard.pdf)**  
 
-> **Note:** All values shown in this dashboard are illustrative and used solely for prototype and portfolio demonstration purposes.
+---
+
+## 🔷 Project 2 — Supplier Scorecard Dashboard
+
+### 🔍 Project Overview
+
+An **executive-level Supplier Scorecard Dashboard** designed to evaluate staffing vendors across performance, quality, and SLA-driven KPIs.
+
+The dashboard enables leadership to **compare suppliers objectively**, identify operational risks, and support data-driven vendor governance using a standardized scoring framework.
+
+---
+
+### 🎯 Business Objectives
+
+- Score suppliers across **response, quality, and delivery metrics**
+- Enable **comparative supplier ranking**
+- Highlight performance gaps and improvement areas
+- Track SLA adherence and operational efficiency
+- Support vendor performance reviews with data-backed insights
+
+---
+
+### ⭐ Key Features
+
+- Overall supplier score (out of 100)  
+- Supplier ranking within peer group  
+- KPI-level scoring with thresholds & targets  
+- Activity snapshot (postings, responses, starts, finishes)  
+- Market share & efficiency indicators  
+- Executive-ready, neutral scorecard design  
+
+---
+
+### 🧠 Skills Demonstrated
+
+- KPI scoring logic using DAX  
+- Comparative ranking & percentile analysis  
+- Metric normalization & threshold-based evaluation  
+- Executive scorecard design principles  
+- Business-focused analytical storytelling  
+
+---
+
+### 📄 Dashboard Preview
+
+👉 **[View Dashboard (PDF)](./Supplier_Scorecard_Dashboard.pdf)**  
+
+---
+
+## 🛠 Tools & Technologies Used
+
+- **Power BI**
+- **DAX**
+- **Power Query**
+- **Data Modeling**
+- **KPI & SLA Framework Design**
+- **Dashboard Design & Reporting**
 
 ---
 
 ## 📁 Repository Structure
 ├── index.html
 ├── Staffing_Analytics_Dashboard.pdf
+├── Supplier_Scorecard_Dashboard.pdf
 └── README.md
 
+
+---
+
+## ℹ️ Notes
+
+- All datasets are **synthetic / anonymized**
+- Dashboards are exported as **PDFs** for portfolio demonstration
+- Focus is on **analytics logic, business insight, and design discipline**
 
 ---
 
