@@ -37,7 +37,7 @@
 
         .hero {
             text-align: center;
-            margin-bottom: 70px;
+            margin-bottom: 50px; /* reduced spacing */
         }
 
         .hero h1 {
@@ -69,6 +69,11 @@
             box-shadow: 0 10px 30px rgba(0,0,0,0.06);
         }
 
+        /* About Me specific tuning */
+        .about-card {
+            padding: 26px 28px; /* reduced vertical padding */
+        }
+
         .card h3 {
             margin-top: 0;
             margin-bottom: 12px;
@@ -80,6 +85,7 @@
             line-height: 1.65;
             color: var(--muted);
             text-align: justify;
+            margin: 0;
         }
 
         .pill-group {
@@ -169,6 +175,7 @@
 
 <div class="container">
 
+    <!-- HERO -->
     <div class="hero">
         <h1>Ronit Kaushal</h1>
     </div>
@@ -177,7 +184,7 @@
     <section>
         <h2>About Me</h2>
 
-        <div class="card">
+        <div class="card about-card">
             <p>
                 Quality-driven Data Analytics and Business Intelligence professional with leadership-level
                 experience in delivering KPI frameworks, SLA performance tracking, and executive dashboards.
@@ -191,6 +198,7 @@
     <section>
         <h2>Featured Power BI Project</h2>
 
+        <!-- Project 1 -->
         <div class="card" style="margin-bottom:40px;">
             <h3>Staffing Analytics & SLA Performance Dashboard</h3>
             <p>
@@ -212,19 +220,20 @@
             </a>
         </div>
 
+        <!-- Project 2 -->
         <div class="card">
             <h3>Supplier Scorecard Dashboard</h3>
             <p>
-                A supplier performance scorecard designed to evaluate and compare vendor effectiveness
-                across response rates, hiring outcomes, SLA compliance, and cost efficiency. The dashboard
-                enables leadership to assess supplier contribution, identify performance gaps, and
-                support data-driven vendor strategy decisions.
+                Executive-level supplier performance scorecard designed to evaluate staffing vendors
+                across response rates, hiring efficiency, quality metrics, and SLA adherence. Features
+                KPI-based scoring, comparative supplier ranking, and operational performance insights
+                to support data-driven vendor governance.
             </p>
 
             <div class="pill-group">
                 <div class="pill">Power BI · DAX · KPI Scoring</div>
                 <div class="pill">Supplier Performance Analytics</div>
-                <div class="pill">Scorecard & Ranking Logic</div>
+                <div class="pill">Scorecard Design</div>
                 <div class="pill">Executive Reporting</div>
             </div>
 
@@ -265,8 +274,9 @@
         </ul>
     </section>
 
+    <!-- FOOTER -->
     <div class="footer">
-        © 2025 Ronit Kaushal ·
+        Ronit Kaushal ·
         <a href="https://www.linkedin.com/in/ronit-kaushal-a40609177/" target="_blank">LinkedIn</a> ·
         <a href="mailto:ronitk95@gmail.com">ronitk95@gmail.com</a>
     </div>
