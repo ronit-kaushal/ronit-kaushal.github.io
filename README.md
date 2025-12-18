@@ -103,6 +103,7 @@ The dashboard enables leadership to **compare suppliers objectively**, identify 
 ---
 
 ### 📄 Dashboard Preview
+This PDF shows selected ranking scenarios (1, 3, 5) to demonstrate how the report dynamically responds to parameter changes.
 
 👉 **[View Dashboard (PDF)](./Supplier_Scorecard_Dashboard.pdf)**  
 
