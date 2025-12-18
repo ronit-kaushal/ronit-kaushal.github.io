@@ -58,7 +58,7 @@ The dashboard provides leadership-level visibility into hiring pipelines, servic
 ### 📄 Dashboard Preview
 In this PDF, each page reflects a different slicer configuration to demonstrate how insights and KPIs dynamically change across various reporting scenarios
 
-👉 **[View Dashboard (PDF)](./Staffing_Analytics_Dashboard.pdf)**  
+**[View Dashboard (PDF)](./Staffing_Analytics_Dashboard.pdf)**  
 
 ---
 
@@ -106,11 +106,11 @@ The dashboard enables leadership to **compare suppliers objectively**, identify 
 ### 📄 Dashboard Preview
 This PDF shows selected ranking scenarios (1, 3, 5) to demonstrate how the report dynamically responds to parameter changes.
 
-👉 **[View Dashboard (PDF)](./Supplier_Scorecard_Dashboard.pdf)**  
+**[View Dashboard (PDF)](./Supplier_Scorecard_Dashboard.pdf)**  
 
 ---
 
-## 🛠 Tools & Technologies Used
+## Tools & Technologies Used
 
 - **Power BI**
 - **DAX**
