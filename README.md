@@ -1,4 +1,4 @@
-# 📊 Power BI Analytics Portfolio
+# Power BI Analytics Portfolio
 
 **Author:** Ronit Kaushal  
 **Primary Tools:** Power BI · DAX · Power Query  
@@ -15,7 +15,7 @@ All dashboards are designed to demonstrate **analytical thinking, business align
 
 ## 🔷 Project 1 — Staffing Analytics & SLA Performance Dashboard
 
-### 🔍 Project Overview
+### Project Overview
 
 An end-to-end **Staffing Analytics & SLA Performance Dashboard** designed to track recruitment efficiency, SLA adherence, and operational performance across the hiring lifecycle.
 
@@ -23,7 +23,7 @@ The dashboard provides leadership-level visibility into hiring pipelines, servic
 
 ---
 
-### 🎯 Business Objectives
+### Business Objectives
 
 - Track **Service Ratio, Fill Ratio, and Response Time**
 - Measure stage-wise progression from **Submission → Hire**
@@ -33,7 +33,7 @@ The dashboard provides leadership-level visibility into hiring pipelines, servic
 
 ---
 
-### ⭐ Key Features
+### Key Features
 
 - KPI cards for high-level performance tracking  
 - Core Stage Progression (Submission → Hire)  
@@ -44,7 +44,7 @@ The dashboard provides leadership-level visibility into hiring pipelines, servic
 
 ---
 
-### 🧠 Skills Demonstrated
+### Skills Demonstrated
 
 - Data modeling & table relationships  
 - DAX measures for SLA calculations & ratios  
@@ -64,7 +64,7 @@ In this PDF, each page reflects a different slicer configuration to demonstrate 
 
 ## 🔷 Project 2 — Supplier Scorecard Dashboard
 
-### 🔍 Project Overview
+### Project Overview
 
 An **executive-level Supplier Scorecard Dashboard** designed to evaluate staffing vendors across performance, quality, and SLA-driven KPIs.
 
@@ -72,7 +72,7 @@ The dashboard enables leadership to **compare suppliers objectively**, identify 
 
 ---
 
-### 🎯 Business Objectives
+### Business Objectives
 
 - Score suppliers across **response, quality, and delivery metrics**
 - Enable **comparative supplier ranking**
@@ -82,7 +82,7 @@ The dashboard enables leadership to **compare suppliers objectively**, identify 
 
 ---
 
-### ⭐ Key Features
+### Key Features
 
 - Overall supplier score (out of 100)  
 - Supplier ranking within peer group  
@@ -93,7 +93,7 @@ The dashboard enables leadership to **compare suppliers objectively**, identify 
 
 ---
 
-### 🧠 Skills Demonstrated
+### Skills Demonstrated
 
 - KPI scoring logic using DAX  
 - Comparative ranking & percentile analysis  
@@ -130,7 +130,7 @@ This PDF shows selected ranking scenarios (1, 3, 5) to demonstrate how the repor
 
 ---
 
-## ℹ️ Notes
+## Notes
 
 - All datasets are **synthetic / anonymized**
 - Dashboards are exported as **PDFs** for portfolio demonstration
@@ -143,6 +143,6 @@ This PDF shows selected ranking scenarios (1, 3, 5) to demonstrate how the repor
 **Ronit Kaushal**  
 Data Analytics & Business Intelligence  
 
-📧 Email: ronitk95@gmail.com  
-🔗 LinkedIn: https://www.linkedin.com/in/ronit-kaushal-a40609177/
+Email: ronitk95@gmail.com  
+LinkedIn: https://www.linkedin.com/in/ronit-kaushal-a40609177/
 
