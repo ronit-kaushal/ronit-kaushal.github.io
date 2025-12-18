@@ -56,6 +56,7 @@ The dashboard provides leadership-level visibility into hiring pipelines, servic
 ---
 
 ### 📄 Dashboard Preview
+In this PDF, each page reflects a different slicer configuration to demonstrate how insights and KPIs dynamically change across various reporting scenarios
 
 👉 **[View Dashboard (PDF)](./Staffing_Analytics_Dashboard.pdf)**  
 
