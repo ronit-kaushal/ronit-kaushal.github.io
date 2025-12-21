@@ -65,7 +65,10 @@
             border-radius: 16px;
             padding: 32px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.06);
-            margin-bottom: 40px;
+        }
+
+        .about-card {
+            padding: 26px 30px;
         }
 
         .card h3 {
@@ -108,7 +111,7 @@
             font-weight: 600;
             text-decoration: none;
             margin-right: 10px;
-            margin-bottom: 10px;
+            margin-bottom: 8px;
         }
 
         .skills {
@@ -125,6 +128,29 @@
             font-size: 14px;
             font-weight: 600;
             color: #344a7a;
+        }
+
+        .cert-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .cert-item {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 18px 22px;
+            margin-bottom: 14px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .cert-item a {
+            color: var(--primary);
+            font-weight: 600;
+            text-decoration: none;
         }
 
         .footer {
@@ -144,106 +170,139 @@
 </head>
 
 <body>
+
 <div class="container">
 
+    <!-- HERO -->
     <div class="hero">
         <h1>Ronit Kaushal</h1>
     </div>
 
-    <!-- ABOUT -->
+    <!-- ABOUT ME -->
     <section>
         <h2>About Me</h2>
-        <div class="card">
+
+        <div class="card about-card">
             <p>
                 Quality-driven Data Analytics and Business Intelligence professional with leadership-level
                 experience in delivering KPI frameworks, SLA performance tracking, and executive dashboards.
-                Proficient in SQL, Power BI, and analytical reporting, enabling data-driven decision-making
-                and improved operational efficiency.
+                Proficient in SQL, Power BI, and analytical reporting, enabling data-driven decision-making,
+                improved operational efficiency, and strong stakeholder alignment across enterprise environments.
             </p>
         </div>
     </section>
 
-    <!-- PROJECTS -->
+    <!-- FEATURED PROJECTS -->
     <section>
-        <h2>Featured Projects</h2>
+        <h2>Featured Power BI Project</h2>
 
-        <!-- Staffing -->
-        <div class="card">
+        <!-- Project 1 -->
+        <div class="card" style="margin-bottom:40px;">
             <h3>Staffing Analytics & SLA Performance Dashboard</h3>
             <p>
-                End-to-end recruitment analytics dashboard focused on SLA adherence, funnel efficiency,
-                and job-level performance analysis.
+                An end-to-end analytics dashboard designed to monitor recruitment funnel performance,
+                SLA adherence, and hiring efficiency. The solution enables stakeholders to identify
+                bottlenecks, track service ratios, and perform job-level SLA deep dives through
+                interactive drill-through analysis.
             </p>
 
             <div class="pill-group">
-                <div class="pill">Power BI · DAX</div>
-                <div class="pill">SLA & Funnel Analytics</div>
-                <div class="pill">Drill-through</div>
+                <div class="pill">Power BI · DAX · Power Query</div>
+                <div class="pill">KPI & SLA Frameworks</div>
+                <div class="pill">Recruitment Funnel Analytics</div>
+                <div class="pill">Drill-through & Trend Analysis</div>
             </div>
 
             <a class="btn" href="https://app.powerbi.com/view?r=eyJrIjoiNDI0MjVkMzAtNjBmZi00ZDY3LThlYWEtNzY3ZWE0NThmN2M2IiwidCI6ImNlOTk3M2JmLTc4NDMtNDM2Zi1hYmZkLTk2MGQ0OTM1MTcxNiJ9" target="_blank">
-                🔗 Open Live Dashboard
+                🔗 View Live Dashboard
             </a>
 
-            <a class="btn" href="Staffing_Analytics_Dashboard.pdf" target="_blank">
-                📄 View PDF
+            <a class="btn" href="https://github.com/ronit-kaushal/staffing-analytics-dashboard/blob/main/Staffing_Analytics_Dashboard.pdf" target="_blank">
+                📄 View Dashboard (PDF)
             </a>
         </div>
 
-        <!-- Supplier -->
-        <div class="card">
+        <!-- Project 2 -->
+        <div class="card" style="margin-bottom:40px;">
             <h3>Supplier Scorecard Dashboard</h3>
             <p>
-                Executive supplier performance scorecard covering KPI scoring, ranking, market share,
-                and SLA compliance.
+                Executive-level supplier performance scorecard designed to evaluate staffing vendors
+                across response rates, hiring efficiency, quality metrics, and SLA adherence. Features
+                KPI-based scoring, comparative supplier ranking, and operational performance insights
+                to support data-driven vendor governance.
             </p>
 
             <div class="pill-group">
-                <div class="pill">Power BI · KPI Scoring</div>
-                <div class="pill">Supplier Analytics</div>
+                <div class="pill">Power BI · DAX · KPI Scoring</div>
+                <div class="pill">Supplier Performance Analytics</div>
+                <div class="pill">Scorecard Design</div>
                 <div class="pill">Executive Reporting</div>
             </div>
 
             <a class="btn" href="https://app.powerbi.com/view?r=eyJrIjoiZmMxMTFhNzEtYTkxYS00N2M5LWFkZTEtZTMyYzc4ZTI2NTQ3IiwidCI6ImNlOTk3M2JmLTc4NDMtNDM2Zi1hYmZkLTk2MGQ0OTM1MTcxNiJ9" target="_blank">
-                🔗 Open Live Dashboard
+                🔗 View Live Dashboard
             </a>
 
-            <a class="btn" href="Supplier_Scorecard_Dashboard.pdf" target="_blank">
-                📄 View PDF
+            <a class="btn" href="https://github.com/ronit-kaushal/supplier-scorecard-dashboard/blob/main/Supplier_Scorecard_Dashboard.pdf" target="_blank">
+                📄 View Dashboard (PDF)
             </a>
         </div>
 
-        <!-- SQL -->
+        <!-- SQL PROJECT -->
         <div class="card">
-            <h3>Workforce Analytics - SQL Project</h3>
+            <h3>Workforce Analytics — SQL Project</h3>
             <p>
                 End-to-end workforce analytics project built using PostgreSQL, covering schema design,
-                synthetic data generation, validation, and operational analysis.
+                synthetic data generation, data validation, and operational analysis. The project
+                demonstrates strong analytical reasoning, business logic implementation, and
+                real-world workforce reporting scenarios.
             </p>
 
             <div class="pill-group">
-                <div class="pill">PostgreSQL</div>
+                <div class="pill">PostgreSQL · SQL</div>
                 <div class="pill">Data Modeling</div>
-                <div class="pill">Analytics Queries</div>
+                <div class="pill">Synthetic Data Generation</div>
+                <div class="pill">Operational Analytics</div>
             </div>
 
             <a class="btn" href="https://github.com/ronit-kaushal/workforce-analytics-sql" target="_blank">
-                🔗 View SQL Repository
+                🔗 View SQL Project Repository
             </a>
         </div>
     </section>
 
-    <!-- SKILLS -->
+    <!-- CORE SKILLS -->
     <section>
         <h2>Core Skills</h2>
+
         <div class="skills">
-            <div class="skill">SQL · Data Analysis</div>
-            <div class="skill">Power BI · DAX</div>
-            <div class="skill">Data Modeling</div>
-            <div class="skill">KPI & SLA Frameworks</div>
+            <div class="skill">SQL · Data Analysis & Querying</div>
+            <div class="skill">Power BI · DAX · Data Modeling</div>
+            <div class="skill">Dashboard Design & KPI Frameworks</div>
+            <div class="skill">SLA, Funnel & Performance Analytics</div>
+            <div class="skill">Stakeholder Reporting & Insights</div>
+            <div class="skill">Business & Operational Analytics</div>
         </div>
     </section>
 
+    <!-- CERTIFICATIONS -->
+    <section>
+        <h2>Certifications</h2>
+
+        <ul class="cert-list">
+            <li class="cert-item">
+                <span>HackerRank – SQL (Basic)</span>
+                <a href="https://www.hackerrank.com/certificates/82902e422855" target="_blank">View Certificate →</a>
+            </li>
+
+            <li class="cert-item">
+                <span>HackerRank – SQL (Intermediate)</span>
+                <a href="https://www.hackerrank.com/certificates/469453bc49c3" target="_blank">View Certificate →</a>
+            </li>
+        </ul>
+    </section>
+
+    <!-- FOOTER -->
     <div class="footer">
         Ronit Kaushal ·
         <a href="https://www.linkedin.com/in/ronit-kaushal-a40609177/" target="_blank">LinkedIn</a> ·
@@ -251,5 +310,6 @@
     </div>
 
 </div>
+
 </body>
 </html>
