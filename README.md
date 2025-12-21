@@ -1,4 +1,4 @@
-# Analytics Portfolio — Ronit Kaushal
+# Analytics Portfolio - Ronit Kaushal
 
 Welcome to my analytics portfolio.  
 This repository serves as a **central index** for my end-to-end data analytics projects across **SQL, Power BI, and business analytics**.
