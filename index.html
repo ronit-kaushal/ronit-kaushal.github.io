@@ -60,17 +60,17 @@
         }
 
         /* GENERAL */
-            #projects {
-        padding-top: 30px;
-        padding-bottom: 46px;
+        #projects {
+            padding-top: 30px;
+            padding-bottom: 46px;
         }
-        
+
         .container {
             max-width: 1100px;
             margin: 0 auto;
             padding: 44px 20px 52px;
         }
-        
+
         section.alt { background: var(--alt-bg); }
 
         section h2 {
@@ -128,7 +128,7 @@
             margin-right: 10px;
         }
 
-        /* SKILLS – 3 x 3 */
+        /* SKILLS */
         .skills {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -176,6 +176,20 @@
             text-decoration: none;
         }
 
+        .cert-pl300 {
+            display: flex;
+            align-items: center;
+            gap: 18px;
+        }
+
+        .cert-pl300 img {
+            height: 56px;
+        }
+
+        .qr {
+            height: 56px;
+        }
+
         /* FOOTER */
         .footer {
             text-align: center;
@@ -200,6 +214,7 @@
 <section class="hero">
     <h1>Ronit Kaushal</h1>
     <p>
+        <strong>Microsoft Certified: Power BI Data Analyst Associate</strong><br>
         Data Analytics & Business Intelligence professional specializing in SQL, Power BI,
         KPI frameworks, SLA performance tracking, and executive reporting.
     </p>
@@ -211,10 +226,11 @@
     <h2>About Me</h2>
     <div class="card">
         <p>
-            Quality-driven Data Analytics and Business Intelligence professional with leadership-level
-            experience in delivering KPI frameworks, SLA performance tracking, and executive dashboards.
-            Proficient in SQL, Power BI, and analytical reporting, enabling data-driven decision-making,
-            improved operational efficiency, and strong stakeholder alignment across enterprise environments.
+            Microsoft Certified: Power BI Data Analyst Associate (PL-300) with a strong focus on
+            quality-driven data analytics and business intelligence. Experienced in building KPI
+            frameworks, SLA performance tracking, and executive-level dashboards. Proficient in SQL
+            and Power BI, enabling data-driven decision-making, improved operational efficiency, and
+            strong stakeholder alignment across enterprise environments.
         </p>
     </div>
 </section>
@@ -237,7 +253,7 @@
             <li>Operational & Leadership Reporting</li>
         </ul>
         <a class="btn" href="https://app.powerbi.com/view?r=eyJrIjoiNDI0MjVkMzAtNjBmZi00ZDY3LThlYWEtNzY3ZWE0NThmN2M2IiwidCI6ImNlOTk3M2JmLTc4NDMtNDM2Zi1hYmZkLTk2MGQ0OTM1MTcxNiJ9" target="_blank">Live Dashboard</a>
-        <a class="btn" href="Staffing_Analytics_Dashboard.pdf" target="_blank">PDF</a>
+        <a class="btn" href="assets/docs/Staffing_Analytics_Dashboard.pdf" target="_blank">PDF</a>
     </div>
 
     <div class="card">
@@ -254,7 +270,7 @@
             <li>Executive & Leadership Reporting</li>
         </ul>
         <a class="btn" href="https://app.powerbi.com/view?r=eyJrIjoiZmMxMTFhNzEtYTkxYS00N2M5LWFkZTEtZTMyYzc4ZTI2NTQ3IiwidCI6ImNlOTk3M2JmLTc4NDMtNDM2Zi1hYmZkLTk2MGQ0OTM1MTcxNiJ9" target="_blank">Live Dashboard</a>
-        <a class="btn" href="Supplier_Scorecard_Dashboard.pdf" target="_blank">PDF</a>
+        <a class="btn" href="assets/docs/Supplier_Scorecard_Dashboard.pdf" target="_blank">PDF</a>
     </div>
 
     <div class="card">
@@ -291,10 +307,23 @@
 <section id="certifications" class="container alt">
     <h2>Certifications</h2>
     <ul class="cert-list">
+
+        <!-- PL-300 -->
+        <li class="cert-item">
+            <div class="cert-pl300">
+                <a href="https://learn.microsoft.com/en-us/users/ronit-kaushal/credentials/e599ccc4247de6a3" target="_blank">
+                    <img src="assets/images/ms-pl300-badge.png" alt="Microsoft PL-300 Badge">
+                </a>
+                <span><strong>Microsoft Certified: Power BI Data Analyst Associate (PL-300)</strong></span>
+            </div>
+            <a href="assets/docs/pl300-certificate.pdf" target="_blank">View Certificate →</a>
+        </li>
+
         <li class="cert-item">
             <span>HackerRank – SQL (Basic)</span>
             <a href="https://www.hackerrank.com/certificates/82902e422855" target="_blank">View Certificate →</a>
         </li>
+
         <li class="cert-item">
             <span>HackerRank – SQL (Intermediate)</span>
             <a href="https://www.hackerrank.com/certificates/469453bc49c3" target="_blank">View Certificate →</a>
