@@ -1,7 +1,7 @@
 # Analytics Portfolio - Ronit Kaushal
 
 Welcome to my analytics portfolio.  
-This repository serves as a **central index** for my end-to-end data analytics projects across **SQL, Power BI, and business analytics**.
+This repository serves as a **central index** for my end-to-end data analytics projects across **SQL, Python, Power BI, and business analytics**.
 
 Each project is maintained in its **own dedicated repository** to reflect real-world analytics workflows and version control practices.
 
@@ -29,6 +29,16 @@ https://github.com/ronit-kaushal/supplier-scorecard-dashboard
 
 ---
 
+### Superstore Sales Analytics (Python + SQL + Power BI)
+- End-to-end sales analytics and business intelligence project built using Python, SQL, and Power BI  
+- Data workflow: **Raw Data → Python Cleaning → SQL Analysis → Power BI Dashboard**  
+- Includes KPI reporting, discount impact insights, and **RFM-based customer segmentation**  
+
+Repository:  
+https://github.com/ronit-kaushal/superstore-sales-analytics
+
+---
+
 ### Workforce Analytics - SQL Project
 - End-to-end workforce analytics project using PostgreSQL  
 - Covers schema design, synthetic data generation, validation, and analysis  
@@ -42,6 +52,7 @@ https://github.com/ronit-kaushal/workforce-analytics-sql
 ## Tools & Skills
 
 - **SQL (PostgreSQL)**
+- **Python**
 - **Power BI**
 - **DAX**
 - **Power Query**
