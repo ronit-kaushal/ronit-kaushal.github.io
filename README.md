@@ -29,7 +29,7 @@ https://github.com/ronit-kaushal/supplier-scorecard-dashboard
 
 ---
 
-### Workforce Analytics — SQL Project
+### Workforce Analytics - SQL Project
 - End-to-end workforce analytics project using PostgreSQL  
 - Covers schema design, synthetic data generation, validation, and analysis  
 - Focused on operational and business analytics use cases  
@@ -56,5 +56,5 @@ https://github.com/ronit-kaushal/workforce-analytics-sql
 **Ronit Kaushal**  
 Data Analytics & Business Intelligence  
 
-📧 Email: ronitk95@gmail.com  
-🔗 LinkedIn: https://www.linkedin.com/in/ronit-kaushal-a40609177/
+Email: ronitk95@gmail.com  
+LinkedIn: https://www.linkedin.com/in/ronit-kaushal-a40609177/
