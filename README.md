@@ -1,9 +1,9 @@
 # Analytics Portfolio - Ronit Kaushal
 
 Welcome to my analytics portfolio.  
-This repository serves as a **central index** for my end-to-end data analytics projects across **SQL, Python, Power BI, and business analytics**.
+This repository serves as a **central index** for my end-to-end data analytics and business intelligence projects across **SQL, Python, Power BI, and operational analytics**.
 
-Each project is maintained in its **own dedicated repository** to reflect real-world analytics workflows and version control practices.
+Each project is maintained in its **own dedicated repository** to reflect real-world analytics workflows, modular design, and version control best practices.
 
 ---
 
@@ -11,8 +11,8 @@ Each project is maintained in its **own dedicated repository** to reflect real-w
 
 ### Staffing Analytics & SLA Performance Dashboard
 - End-to-end recruitment analytics dashboard built in Power BI  
-- Focuses on SLA adherence, funnel efficiency, and operational KPIs  
-- Interactive report with slicer-driven insights and drill-through analysis  
+- Focused on SLA adherence, recruitment funnel efficiency, and operational KPIs  
+- Designed for leadership visibility with slicer-driven insights and job-level drill-through  
 
 Repository:  
 https://github.com/ronit-kaushal/staffing-analytics-dashboard
@@ -20,9 +20,9 @@ https://github.com/ronit-kaushal/staffing-analytics-dashboard
 ---
 
 ### Supplier Scorecard Dashboard
-- Executive-level supplier performance scorecard  
-- KPI-based scoring, ranking, and market share analysis  
-- Designed for vendor governance and leadership reviews  
+- Executive-level supplier performance scorecard for multi-vendor staffing environments  
+- KPI-based scoring, ranking, and comparative performance evaluation  
+- Designed to support supplier governance, quarterly reviews, and decision-making  
 
 Repository:  
 https://github.com/ronit-kaushal/supplier-scorecard-dashboard
@@ -30,9 +30,9 @@ https://github.com/ronit-kaushal/supplier-scorecard-dashboard
 ---
 
 ### Superstore Sales Analytics (Python + SQL + Power BI)
-- End-to-end sales analytics and business intelligence project built using Python, SQL, and Power BI  
+- End-to-end sales analytics and business intelligence solution built using Python, SQL, and Power BI  
 - Data workflow: **Raw Data → Python Cleaning → SQL Analysis → Power BI Dashboard**  
-- Includes KPI reporting, discount impact insights, and **RFM-based customer segmentation**  
+- Covers KPI reporting, discount impact analysis, and **RFM-based customer segmentation**  
 
 Repository:  
 https://github.com/ronit-kaushal/superstore-sales-analytics
@@ -40,25 +40,24 @@ https://github.com/ronit-kaushal/superstore-sales-analytics
 ---
 
 ### Workforce Analytics - SQL Project
-- End-to-end workforce analytics project using PostgreSQL  
-- Covers schema design, synthetic data generation, validation, and analysis  
-- Focused on operational and business analytics use cases  
+- End-to-end workforce analytics project implemented using PostgreSQL  
+- Covers schema design, synthetic data generation, data validation, and business analysis  
+- Focused on recruitment funnel performance, conversion metrics, and time-based analytics  
 
 Repository:  
 https://github.com/ronit-kaushal/workforce-analytics-sql
 
 ---
 
-## Tools & Skills
+## Tools & Core Skills
 
-- **SQL (PostgreSQL)**
-- **Python**
-- **Power BI**
-- **DAX**
-- **Power Query**
-- **Data Modeling**
-- **KPI & SLA Framework Design**
-- **Business & Operational Analytics**
+- **SQL (PostgreSQL)**  
+- **Python**  
+- **Power BI**  
+- **DAX & Power Query**  
+- **Data Modeling & Validation**  
+- **KPI & SLA Framework Design**  
+- **Business, Operations & Workforce Analytics**
 
 ---
 
